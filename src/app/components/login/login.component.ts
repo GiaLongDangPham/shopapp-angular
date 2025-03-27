@@ -16,8 +16,8 @@ import { Role } from '../../models/role'; // Đường dẫn đến model Role
 export class LoginComponent {
   @ViewChild('loginForm') loginForm!: NgForm;
 
-  phoneNumber: string = '33445566';
-  password: string = '123456';
+  phoneNumber: string = '000001';
+  password: string = '123';
 
   roles: Role[] = []; // Mảng roles
   rememberMe: boolean = true;
