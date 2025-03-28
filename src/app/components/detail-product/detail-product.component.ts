@@ -33,7 +33,7 @@ export class DetailProductComponent implements OnInit {
       //const idParam = this.activatedRoute.snapshot.paramMap.get('id');
       debugger
       //this.cartService.clearCart();
-      const idParam = 5 //fake tạm 1 giá trị
+      const idParam = 3 //fake tạm 1 giá trị
       if (idParam !== null) {
         this.productId = +idParam;
       }
@@ -66,8 +66,7 @@ export class DetailProductComponent implements OnInit {
     }
     showImage(index: number): void {
       debugger
-      if (this.product && this.product.product_images && 
-          this.product.product_images.length > 0) {
+      if (this.product && this.product.product_images && this.product.product_images.length > 0) {
         // Đảm bảo index nằm trong khoảng hợp lệ        
         if (index < 0) {
           index = 0;

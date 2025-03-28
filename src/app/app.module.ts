@@ -42,10 +42,10 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   bootstrap: [
     // HomeComponent,
-    // DetailProductComponent,
+    DetailProductComponent,
     //OrderComponent,
     //OrderConfirmComponent,
-    LoginComponent,
+    // LoginComponent,
     // RegisterComponent
   ]
 })
